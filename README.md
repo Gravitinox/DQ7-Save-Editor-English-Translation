@@ -1,25 +1,20 @@
-# 概要
-3DS ドラゴンクエスト7のセーブデータ編集Tool
+# Dragon Quest VII (3DS) Save Editor - English Translation
 
-# ソフト
-http://www.dragonquest.jp/dq7/
+# Requirements
+* Windows OS
+* .NET Framework 4.5
+* A way to extract and restore saves on your 3DS (for example with [JKSM](https://github.com/J-D-K/JKSM))
 
-# 実行に必要
-* Windows マシン
-* .NET Framework 4.5の導入
-* セーブデータの吸い出し
-* セーブデータの書き戻し
+# Build Environment
+* Windows 10 (64bit)
+* Visual Studio 2019
 
-# Build環境
-* Windows 10(64bit)
-* Visual Studio 2017
-
-# 編集時の手順
-   * 結果、以下が取得可能
+# Usage
+   * Extract the following DQ7 save data from your 3DS:
       * cardinfo.bin
-      * save001(save002、save003).bin
+      * save001(save002, save003).bin
       * system.bin
-* save001(save002、save003).binを読み込む
-* 任意の編集を行う
-* save001(save002、save003).binを書き出す
-* saveDataを書き戻す
+* Load save001(or save002, save003).bin file using the program
+* Edit the save
+* Save the edited save001(or save002, save003).bin file
+* Restore the edited save files to your 3DS
