@@ -249,5 +249,10 @@ namespace DQ7
 			if (SaveData.Instance().Save() == true) MessageBox.Show("File saved");
 			else MessageBox.Show("File saving failed");
 		}
-	}
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+    }
 }

@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DQ7"
         mc:Ignorable="d"
-        Title="AboutWindow" Height="110" Width="230">
+        Title="AboutWindow" Height="151.25" Width="255.536">
     <Grid>
         <StackPanel>
-            <Label Content="Creater ： カメムシ"/>
+            <Label Content="Creator ： カメムシ"/>
             <Label Content="HP ： http://turtleinsect.php.xdomain.jp/" MouseDown="LabelHP_MouseDown"/>
             <Label Content="Mail ： turtle.insect@gmail.com"/>
+            <Label Content="English Translation ： Gravitinox"/>
         </StackPanel>
     </Grid>
 </Window>
