@@ -33,11 +33,11 @@ namespace DQ7
 
 			if (SaveData.Instance().Open(files[0], false) == false)
 			{
-				MessageBox.Show("読込失敗");
+				MessageBox.Show("File loading failed");
 				return;
 			}
 			Init();
-			MessageBox.Show("読込成功");
+			MessageBox.Show("File loaded");
 		}
 
 		private void MenuItemFileOpen_Click(object sender, RoutedEventArgs e)
@@ -60,8 +60,8 @@ namespace DQ7
 			SaveFileDialog dlg = new SaveFileDialog();
 			if (dlg.ShowDialog() == false) return;
 
-			if (SaveData.Instance().SaveAs(dlg.FileName) == true) MessageBox.Show("書込成功");
-			else MessageBox.Show("書込失敗");
+			if (SaveData.Instance().SaveAs(dlg.FileName) == true) MessageBox.Show("File saved");
+			else MessageBox.Show("File saving failed");
 		}
 
 		private void MenuItemExit_Click(object sender, RoutedEventArgs e)
@@ -232,11 +232,11 @@ namespace DQ7
 
 			if (SaveData.Instance().Open(dlg.FileName, force) == false)
 			{
-				MessageBox.Show("読込失敗");
+				MessageBox.Show("File loading failed");
 				return;
 			}
 			Init();
-			MessageBox.Show("読込成功");
+			MessageBox.Show("File loaded");
 		}
 
 		private void Init()
@@ -246,8 +246,8 @@ namespace DQ7
 
 		private void Save()
 		{
-			if (SaveData.Instance().Save() == true) MessageBox.Show("書込成功");
-			else MessageBox.Show("書込失敗");
+			if (SaveData.Instance().Save() == true) MessageBox.Show("File saved");
+			else MessageBox.Show("File saving failed");
 		}
 	}
 }

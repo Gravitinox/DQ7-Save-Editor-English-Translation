@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:DQ7"
 		xmlns:prop="clr-namespace:DQ7.Properties"
         mc:Ignorable="d"
-        Title="DQ7 セーブデータ改造(Nintendo 3DS)" Height="650" Width="800"
+        Title="DQ7 Save Editor (Nintendo 3DS)" Height="650" Width="800"
         WindowStartupLocation="CenterScreen"
 		Closed="Window_Closed"
         AllowDrop="True" Drop="Window_Drop" PreviewDragOver="Window_PreviewDragOver">
@@ -20,20 +20,20 @@
         <DockPanel>
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="ファイル(_F)">
-                    <MenuItem Header="開く(_O)" Click="MenuItemFileOpen_Click"/>
-                    <MenuItem Header="強制的に開く(_R)" Click="MenuItemFileOpenForce_Click"/>
-                    <MenuItem Header="上書き保存(_S)" Click="MenuItemFileSave_Click"/>
-                    <MenuItem Header="名前を付けて保存(_S)" Click="MenuItemFileSaveAs_Click"/>
+                    <MenuItem Header="Open(_O)" Click="MenuItemFileOpen_Click"/>
+                    <MenuItem Header="Force open file(_R)" Click="MenuItemFileOpenForce_Click"/>
+                    <MenuItem Header="Save(_S)" Click="MenuItemFileSave_Click"/>
+                    <MenuItem Header="Save as(_S)" Click="MenuItemFileSaveAs_Click"/>
                     <Separator/>
-                    <MenuItem Header="終了(_X)" Click="MenuItemExit_Click"/>
+                    <MenuItem Header="Exit(_X)" Click="MenuItemExit_Click"/>
                 </MenuItem>
-                <MenuItem Header="情報(_A)" Click="MenuItemAbout_Click"/>
+                <MenuItem Header="About(_A)" Click="MenuItemAbout_Click"/>
             </Menu>
             <ToolBar DockPanel.Dock="Top">
-                <Button Width="32" Height="32" Click="ToolBarFileOpen_Click" ToolTip="開く">
+                <Button Width="32" Height="32" Click="ToolBarFileOpen_Click" ToolTip="Open">
                     <Image Source="{StaticResource Open}"/>
                 </Button>
-                <Button Width="32" Height="32" Click="ToolBarFileSave_Click" ToolTip="保存">
+                <Button Width="32" Height="32" Click="ToolBarFileSave_Click" ToolTip="Save">
                     <Image Source="{StaticResource Save}"/>
                 </Button>
 				<TextBox Text="device"/>
@@ -44,7 +44,7 @@
 				</ComboBox>
 			</ToolBar>
             <TabControl>
-                <TabItem Header="基本設定">
+                <TabItem Header="General">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition/>
@@ -70,9 +70,9 @@
                             <ColumnDefinition/>
                             <ColumnDefinition Width="50"/>
                         </Grid.ColumnDefinitions>
-                        <Label Content="カジノコイン"/>
+                        <Label Content="Casino Tokens"/>
                         <TextBox Grid.Column="1" Text="{Binding Casino, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Column="2" Content="枚"/>
+                        <Label Grid.Column="2" Content="tokens"/>
                         <Grid Grid.Row="1" Grid.RowSpan="2">
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
@@ -82,48 +82,48 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
-                            <Label Grid.RowSpan="2" VerticalAlignment="Center" Content="ちいさなメダル"/>
-                            <Label Grid.Column="1" Content="預けた"/>
-                            <Label Grid.Row="1" Grid.Column="1" Content="所持"/>
+                            <Label Grid.RowSpan="2" VerticalAlignment="Center" Content="Mini Medals"/>
+                            <Label Grid.Column="1" Content="Turned in"/>
+                            <Label Grid.Row="1" Grid.Column="1" Content="On hand"/>
                         </Grid>
                         <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding MedalBank, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Row="1" Grid.Column="2" Content="枚"/>
+                        <Label Grid.Row="1" Grid.Column="2" Content=""/>
                         <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding SmallMedal, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Row="2" Grid.Column="2" Content="枚"/>
-                        <Label Grid.Row="3" Content="しょじきん"/>
+                        <Label Grid.Row="2" Grid.Column="2" Content=""/>
+                        <Label Grid.Row="3" Content="Gold Carried"/>
                         <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Gold, UpdateSourceTrigger=PropertyChanged}"/>
                         <Label Grid.Row="3" Grid.Column="2" Content="G"/>
-                        <Label Grid.Row="4" Content="ぎんこう"/>
+                        <Label Grid.Row="4" Content="Gold Banked"/>
                         <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Bank, UpdateSourceTrigger=PropertyChanged}"/>
                         <Label Grid.Row="4" Grid.Column="2" Content="G"/>
-                        <Label Grid.Row="5" Grid.RowSpan="2" VerticalAlignment="Center" Content="ぼうけんした時間"/>
+                        <Label Grid.Row="5" Grid.RowSpan="2" VerticalAlignment="Center" Content="Time Spent Adventuring"/>
                         <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding PlayTimeHour, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Row="5" Grid.Column="2" Content="時間"/>
+                        <Label Grid.Row="5" Grid.Column="2" Content="Hours"/>
                         <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding PlayTimeMinute, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Row="6" Grid.Column="2" Content="分"/>
-                        <Label Grid.Row="8" Content="ストーリー設定"/>
-                        <Label Grid.Row="9" Content="じゅくれんど表示"/>
+                        <Label Grid.Row="6" Grid.Column="2" Content="Minutes"/>
+                        <Label Grid.Row="8" Content="Story Settings"/>
+                        <Label Grid.Row="9" Content="Vocations unlocked"/>
                         <CheckBox Grid.Row="9" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding Proficiency}"/>
-                        <Label Grid.Row="10" Content="すれちがい石板表示"/>
+                        <Label Grid.Row="10" Content="Streetpass Tablets"/>
                         <CheckBox Grid.Row="10" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding PassingSlate}"/>
 
-                        <Label Grid.Column="4" Content="せんとう回数"/>
+                        <Label Grid.Column="4" Content="No. of Battles"/>
                         <TextBox Grid.Column="5" Text="{Binding BattleCount, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Column="6" Content="回"/>
-                        <Label Grid.Row="1" Grid.Column="4" Content="倒した匹数"/>
+                        <Label Grid.Column="6" Content=""/>
+                        <Label Grid.Row="1" Grid.Column="4" Content="Enemies Defeated"/>
                         <TextBox Grid.Row="1" Grid.Column="5" Text="{Binding KillCount, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Row="1" Grid.Column="6" Content="匹"/>
-                        <Label Grid.Row="2" Grid.Column="4" Content="勝利回数"/>
+                        <Label Grid.Row="1" Grid.Column="6" Content=""/>
+                        <Label Grid.Row="2" Grid.Column="4" Content="No. of Victories"/>
                         <TextBox Grid.Row="2" Grid.Column="5" Text="{Binding WinCount, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Row="2" Grid.Column="6" Content="回"/>
-                        <Label Grid.Row="3" Grid.Column="4" Content="ターン最大ダメージ"/>
+                        <Label Grid.Row="2" Grid.Column="6" Content=""/>
+                        <Label Grid.Row="3" Grid.Column="4" Content="Most Damage in a Turn"/>
                         <TextBox Grid.Row="3" Grid.Column="5" Text="{Binding MaxDamage, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Grid.Row="4" Grid.Column="4" Content="全獲得ゴールド"/>
+                        <Label Grid.Row="4" Grid.Column="4" Content="Total Gold Earned"/>
                         <TextBox Grid.Row="4" Grid.Column="5" Text="{Binding AllGold, UpdateSourceTrigger=PropertyChanged}"/>
                         <Label Grid.Row="4" Grid.Column="6" Content="G"/>
                     </Grid>
                 </TabItem>
-                <TabItem Header="人物">
+                <TabItem Header="Characters">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>
@@ -153,31 +153,31 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition Width="2*"/>
                             </Grid.ColumnDefinitions>
-                            <Label Content="名前"/>
+                            <Label Content="Name"/>
                             <TextBox Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Name, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="1" Content="職業"/>
+                            <Label Grid.Row="1" Content="Vocation"/>
                             <ComboBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Info.Jobs}" SelectedIndex="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Job}" DisplayMemberPath="Name"/>
-                            <Label Grid.Row="2" Content="レベル"/>
+                            <Label Grid.Row="2" Content="LV"/>
                             <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Lv, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="3" Content="ちから"/>
+                            <Label Grid.Row="3" Content="Strength"/>
                             <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Power, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="4" Content="すばやさ"/>
+                            <Label Grid.Row="4" Content="Agility"/>
                             <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Speed, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="5" Content="みのまもり"/>
+                            <Label Grid.Row="5" Content="Resilience"/>
                             <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Defense, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="6" Content="かしこさ"/>
+                            <Label Grid.Row="6" Content="Wisdom"/>
                             <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Intelligence, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="7" Content="かっこよさ"/>
+                            <Label Grid.Row="7" Content="Style"/>
                             <TextBox Grid.Row="7" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Cool, UpdateSourceTrigger=PropertyChanged}"/>
                             <Label Grid.Row="8" Content="HP"/>
                             <TextBox Grid.Row="8" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.HP, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="9" Content="最大HP"/>
+                            <Label Grid.Row="9" Content="Max. HP"/>
                             <TextBox Grid.Row="9" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.MaxHP, UpdateSourceTrigger=PropertyChanged}"/>
                             <Label Grid.Row="10" Content="MP"/>
                             <TextBox Grid.Row="10" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.MP, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="11" Content="最大MP"/>
+                            <Label Grid.Row="11" Content="Max. MP"/>
                             <TextBox Grid.Row="11" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.MaxMP, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="12" Content="Ex"/>
+                            <Label Grid.Row="12" Content="Exp."/>
                             <TextBox Grid.Row="12" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Exp, UpdateSourceTrigger=PropertyChanged}"/>
                         </Grid>
                         <ListBox Grid.Column="2" ItemsSource="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Items}">
@@ -192,12 +192,12 @@
                             </ListBox.ItemTemplate>
                         </ListBox>
                         <TabControl Grid.Column="3">
-                            <TabItem Header="戦闘じゅもん">
+                            <TabItem Header="Battle Spells">
                                 <ListBox ItemsSource="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.BattleMagics}">
                                     <ListBox.ContextMenu>
                                         <ContextMenu>
-                                            <MenuItem Header="全て選択" Click="MenuItemBattleMagicCheck_Click"/>
-                                            <MenuItem Header="全て非選択" Click="MenuItemBattleMagicUnCheck_Click"/>
+                                            <MenuItem Header="Select all" Click="MenuItemBattleMagicCheck_Click"/>
+                                            <MenuItem Header="Unselect all" Click="MenuItemBattleMagicUnCheck_Click"/>
                                         </ContextMenu>
                                     </ListBox.ContextMenu>
                                     <ListBox.ItemTemplate>
@@ -207,12 +207,12 @@
                                     </ListBox.ItemTemplate>
                                 </ListBox>
                             </TabItem>
-                            <TabItem Header="移動じゅもん">
+                            <TabItem Header="Field Spells">
                                 <ListBox ItemsSource="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.FieldMagics}">
                                     <ListBox.ContextMenu>
                                         <ContextMenu>
-                                            <MenuItem Header="全て選択" Click="MenuItemFieldMagicCheck_Click"/>
-                                            <MenuItem Header="全て非選択" Click="MenuItemFieldMagicUnCheck_Click"/>
+                                            <MenuItem Header="Select all" Click="MenuItemFieldMagicCheck_Click"/>
+                                            <MenuItem Header="Unselect all" Click="MenuItemFieldMagicUnCheck_Click"/>
                                         </ContextMenu>
                                     </ListBox.ContextMenu>
                                     <ListBox.ItemTemplate>
@@ -222,12 +222,12 @@
                                     </ListBox.ItemTemplate>
                                 </ListBox>
                             </TabItem>
-                            <TabItem Header="とくぎ">
+                            <TabItem Header="Skills">
                                 <ListBox ItemsSource="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Skills}">
                                     <ListBox.ContextMenu>
                                         <ContextMenu>
-                                            <MenuItem Header="全て選択" Click="MenuItemSkillCheck_Click"/>
-                                            <MenuItem Header="全て非選択" Click="MenuItemSkillUnCheck_Click"/>
+                                            <MenuItem Header="Select all" Click="MenuItemSkillCheck_Click"/>
+                                            <MenuItem Header="Unselect all" Click="MenuItemSkillUnCheck_Click"/>
                                         </ContextMenu>
                                     </ListBox.ContextMenu>
                                     <ListBox.ItemTemplate>
@@ -237,7 +237,7 @@
                                     </ListBox.ItemTemplate>
                                 </ListBox>
                             </TabItem>
-                            <TabItem Header="じゅくれんど">
+                            <TabItem Header="Masteries">
                                 <ListBox ItemsSource="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Jobs}">
                                     <ListBox.Resources>
                                         <x:Array x:Key="JobStars" Type="{x:Type System:String}">
@@ -254,8 +254,8 @@
                                     </ListBox.Resources>
                                     <ListBox.ContextMenu>
                                         <ContextMenu>
-                                            <MenuItem Header="最強" Click="MenuItemJobMax_Click"/>
-                                            <MenuItem Header="最弱" Click="MenuItemJobMin_Click"/>
+                                            <MenuItem Header="Max all" Click="MenuItemJobMax_Click"/>
+                                            <MenuItem Header="Min all (bugged)" Click="MenuItemJobMin_Click"/>
                                         </ContextMenu>
                                     </ListBox.ContextMenu>
                                     <ListBox.ItemTemplate>
@@ -264,7 +264,7 @@
                                                 <Label Content="{Binding Name}" Width="90"/>
                                                 <Label Content="Lv"/>
                                                 <ComboBox ItemsSource="{StaticResource JobStars}" SelectedIndex="{Binding Lv}"/>
-                                                <Label Content="戦闘数"/>
+                                                <Label Content="Battles"/>
                                                 <TextBox Text="{Binding Exp, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
                                             </StackPanel>
                                         </DataTemplate>
@@ -274,12 +274,12 @@
                         </TabControl>
                     </Grid>
                 </TabItem>
-                <TabItem Header="ふくろ">
+                <TabItem Header="Bag">
                     <ListBox ItemsSource="{Binding Bag}">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
-                                    <Label Content="個数 : "/>
+                                    <Label Content="Amount: "/>
                                     <TextBox Text="{Binding Count, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
                                     <Button Margin="2,0,0,0" Content=" ... " Click="ButtonBagItem_Click"/>
                                     <Label Content="{Binding ID, Converter={StaticResource ItemConverter}}"/>
@@ -288,12 +288,12 @@
                         </ListBox.ItemTemplate>
                     </ListBox>
                 </TabItem>
-                <TabItem Header="ルーラ">
+                <TabItem Header="Zoom">
                     <ListBox ItemsSource="{Binding Places}">
                         <ListBox.ContextMenu>
                             <ContextMenu>
-                                <MenuItem Header="全て選択" Click="MenuItemPlaceCheck_Click"/>
-                                <MenuItem Header="全て非選択" Click="MenuItemPlaceUnCheck_Click"/>
+                                <MenuItem Header="Select all" Click="MenuItemPlaceCheck_Click"/>
+                                <MenuItem Header="Unselect all" Click="MenuItemPlaceUnCheck_Click"/>
                             </ContextMenu>
                         </ListBox.ContextMenu>
                         <ListBox.ItemTemplate>
@@ -303,7 +303,7 @@
                         </ListBox.ItemTemplate>
                     </ListBox>
                 </TabItem>
-                <TabItem Header="パーティー">
+                <TabItem Header="Party">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="16*"/>
@@ -320,16 +320,16 @@
                                   SelectedIndex="{Binding ElementName=ListBoxParty, Path=SelectedItem.ID}"/>
                     </Grid>
                 </TabItem>
-                <TabItem Header="移民の町">
+                <TabItem Header="Haven">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
                             <RowDefinition/>
                         </Grid.RowDefinitions>
                         <StackPanel>
-                            <CheckBox Content="依頼を受ける" IsChecked="{Binding MonsterTownInit}"/>
-                            <CheckBox Content="スラランを見つける" IsChecked="{Binding MonsterTownLook}"/>
-                            <CheckBox Content="他のモンスターを集める" IsChecked="{Binding MonsterTownStart}"/>
+                            <CheckBox Content="Quest started" IsChecked="{Binding MonsterTownInit}"/>
+                            <CheckBox Content="Phlegmrique found" IsChecked="{Binding MonsterTownLook}"/>
+                            <CheckBox Content="Haven first stage completed" IsChecked="{Binding MonsterTownStart}"/>
                         </StackPanel>
                         <Grid Grid.Row="1">
                             <Grid.ColumnDefinitions>
@@ -339,8 +339,8 @@
                             <ListBox ItemsSource="{Binding TownMonsters}">
                                 <ListBox.ContextMenu>
                                     <ContextMenu>
-                                        <MenuItem Header="全て選択" Click="MenuItemTownMonsterCheck_Click"/>
-                                        <MenuItem Header="全て非選択" Click="MenuItemTownMonsterUnCheck_Click"/>
+                                        <MenuItem Header="Select all" Click="MenuItemTownMonsterCheck_Click"/>
+                                        <MenuItem Header="Unselect all" Click="MenuItemTownMonsterUnCheck_Click"/>
                                     </ContextMenu>
                                 </ListBox.ContextMenu>
                                 <ListBox.ItemTemplate>
@@ -457,26 +457,26 @@
                         </DockPanel>
                     </Grid>
                 </TabItem>
-                <TabItem Header="モンスター図鑑">
+                <TabItem Header="Big Book of Beasts">
                     <ListBox ItemsSource="{Binding Monsters}">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
                                     <Label Content="{Binding Name}" Width="120"/>
-                                    <Label Content="倒した数"/>
+                                    <Label Content="No. Defeated"/>
                                     <TextBox Text="{Binding Kill, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
-                                    <Label Content="アイテム数"/>
+                                    <Label Content="Items Acquired"/>
                                     <TextBox Text="{Binding Item, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
-                                    <Label Content="Lv"/>
+                                    <Label Content="Lv First Defeated At"/>
                                     <TextBox Text="{Binding Lv, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
-                                    <Label Content="仲間になった数"/>
+                                    <Label Content="No. Tamed"/>
                                     <TextBox Text="{Binding Friend, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
                                 </StackPanel>
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
                 </TabItem>
-                <TabItem Header="モンスタースタンプ">
+                <TabItem Header="Monster Stamp">
                     <ListBox ItemsSource="{Binding MonsterStamps}">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
@@ -484,25 +484,25 @@
                                     <ComboBox ItemsSource="{Binding Path=DataContext.StampMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
                                               SelectedIndex="{Binding ID, Converter={StaticResource MonsterStampConverter}}" DisplayMemberPath="Name" Width="120"/>
                                     <TextBox Margin="5,0,0,0" Text="{Binding Count, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
-                                    <Label Content="匹倒した"/>
+                                    <Label Content="Acquired"/>
                                 </StackPanel>
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
                 </TabItem>
-                <TabItem Header="モンスターパーク">
+                <TabItem Header="Monster Meadows">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <DockPanel>
-                            <Label DockPanel.Dock="Top" Content="せいそく図"/>
+                            <Label DockPanel.Dock="Top" Content="Enclosures"/>
                             <ListBox ItemsSource="{Binding MonsterParkPlaces}">
                                 <ListBox.ContextMenu>
                                     <ContextMenu>
-                                        <MenuItem Header="全て選択" Click="MenuItemMonsterParkPlaceCheck_Click"/>
-                                        <MenuItem Header="全て非選択" Click="MenuItemMonsterParkPlaceUnCheck_Click"/>
+                                        <MenuItem Header="Select all" Click="MenuItemMonsterParkPlaceCheck_Click"/>
+                                        <MenuItem Header="Unselect all" Click="MenuItemMonsterParkPlaceUnCheck_Click"/>
                                     </ContextMenu>
                                 </ListBox.ContextMenu>
                                 <ListBox.ItemTemplate>
@@ -513,7 +513,7 @@
                             </ListBox>
                         </DockPanel>
                         <DockPanel Grid.Column="1">
-                            <Label DockPanel.Dock="Top" Content="宿舎"/>
+                            <Label DockPanel.Dock="Top" Content="Monster Barn"/>
                             <ListBox ItemsSource="{Binding MonsterParkDormitorys}">
                                 <ListBox.ItemTemplate>
                                     <DataTemplate>
