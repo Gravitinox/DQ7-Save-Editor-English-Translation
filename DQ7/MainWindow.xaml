@@ -19,7 +19,7 @@
         </Grid.Resources>
         <DockPanel>
             <Menu DockPanel.Dock="Top">
-                <MenuItem Header="ファイル(_F)">
+                <MenuItem Header="File(_F)">
                     <MenuItem Header="Open(_O)" Click="MenuItemFileOpen_Click"/>
                     <MenuItem Header="Force open file(_R)" Click="MenuItemFileOpenForce_Click"/>
                     <MenuItem Header="Save(_S)" Click="MenuItemFileSave_Click"/>
@@ -521,7 +521,7 @@
                                             <ComboBox ItemsSource="{Binding Path=DataContext.PassingSlateMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
                                                       DisplayMemberPath="Name" Width="120" SelectedIndex="{Binding ID}"/>
                                             <TextBox Text="{Binding Count, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
-                                            <Label Content="匹"/>
+                                            <Label Content=""/>
                                         </StackPanel>
                                     </DataTemplate>
                                 </ListBox.ItemTemplate>
