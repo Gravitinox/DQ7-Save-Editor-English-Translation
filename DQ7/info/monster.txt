@@ -1,461 +1,461 @@
 #ID	名前	すれ違い石板	スタンプ
-0	無し		
-1	スライム		
-2	ナスビナーラ		
-3	オニムカデ		
-4	リップス		
-5	みみとびねずみ		
-6	バブルスライム		
-7	サボテンボール		
-8	ちゅうまじゅう		
-9	ねこまどう		
-10	ソードワラビー		
-11	はなカワセミ		
-12	森の番人		
-13	はりせんもぐら		
-14	インプ		
-15	カニおとこ		
-16	ホイミスライム		
-17	そらの狩人		
-18	とさかへび		
-19	マドハンド		
-20	どくあおむし		
-21	スライムベス		
-22	メサンザーナ		
-23	テルモンキー		
-24	フェアリーラット		
-25	ベビーゴイル		
-26	くさった死体		
-27	ダークドワーフ		
-28	フーガ		
-29	ドラゴスライム		
-30	どろにんぎょう		
-31	ジャガーメイジ		
-32	首狩り族		
-33	ブチュチュンパ		
-34	ゾンビーアイ		
-35	スライムナイト		
-36	さそりアーマー		
-37	ひとくいばこ		
-38	バブリン		
-39	リビングハンマー		
-40	ブタあくま		
-41	さそりかまきり		
-42	ストローマウス		
-43	突げきホーン		
-44	キメラ		
-45	ポイズンバード		
-46	エイプバット		
-47	スモークポット		
-48	アサシンクロー		
-49	ふゆうじゅ		
-50	ハングドエイプ		
-51	笑いぶくろ		
-52	ワータイガー		
-53	ダンスニードル		
-54	サンダーラット		
-55	メタルスライム		
-56	あくまのつぼ		
-57	木馬のきし		
-58	スマイルロック		
-59	いどまねき		
-60	タマゴロン		
-61	キラーマンティス		
-62	ドロヌーバ		
-63	きとうし		
-64	ストーンマン		
-65	アイアンタートル		
-66	ダンビラムーチョ		
-67	ダッシュラン		
-68	スカイフロッグ		
-69	エンタシスマン		
-70	あばれ足鳥		
-71	あまのじゃく		
-72	しにがみ兵		
-73	ヘルジャンパー		
-74	ピンクオーク		
-75	よろい竜		
-76	あくまの書		
-77	キラーストーカー		
-78	グリーンドラゴン		
-79	シャドーナイト		
-80	プラズママウス		
-81	ベホマスライム		
-82	まさかりぞく		
-83	ライノキング		
-84	とかげどり		
-85	ベビーデビル		
-86	キングスライム		
-87	りゅうきへい		
-88	キラースター		
-89	やみのとうぞく		
-90	レッドスコーピオン		
-91	どくどくゾンビ		
-92	メタルライダー		
-93	ネイルビースト		
-94	フォレストガード		
-95	レッサーデーモン		
-96	ワンダーエッグ		
-97	ポンコツ兵		
-98	スライムブレス		
-99	メイジキメラ		
-100	ドンガンバ		
-101	イノブタマン		
-102	スノーバット		
-103	デビルアーマー		
-104	マジックリップス		
-105	スモールデッド		
-106	バーサーカー		
-107	ベンガルクーン		
-108	ブガッティ		
-109	キングムーチョ		
-110	グロン		
-111	パペットマン		
-112	いどまじん		
-113	ウィングタイガー		
-114	オーガソルジャー		
-115	チョッキンガー		
-116	プヨンターゲット		
-117	ブッチョマン		
-118	ウッディアイ		
-119	ウルフデビル		
-120	おどる宝石		
-121	じごくのピエロ		
-122	テラノライナー		
-123	はぐれメタル		
-124	レノファイター		
-125	ヘルバイパー		
-126	ジェリーマン		
-127	ばくだん岩		
-128	ファイヤーケロッグ		
-129	プロトキラー		
-130	あくま神官		
-131	ファイヤーキッズ		
-132	ミミック		
-133	オークデビル		
-134	シープダック		
-135	のろいのランプ		
-136	首長竜		
-137	スライムベホマズン		
-138	ゴールドマン		
-139	ピグモンエビル		
-140	サンドワーム		
-141	ツボック		
-142	じごくの番人		
-143	マグマロン		
-144	マージインプ		
-145	ミステリピラー		
-146	ダークパンサー		
-147	リザードマン		
-148	呪いのボトル		
-149	ベビークラウド		
-150	くもの大王		
-151	フーガベッサム		
-152	ダークアーマー		
-153	アンクルホーン		
-154	リビングスタチュー		
-155	ゴールデンスライム		
-156	ヘルジュラシック		
-157	コスモファントム		
-158	スカルブレード		
-159	ローズバトラー		
-160	ボーンライダー		
-161	ウィングドラゴン		
-162	アイアンキッズ		
-163	エビルバイブル		
-164	マッドファルコン		
-165	フライングデビル		
-166	シールドオーガ		
-167	ゾンビソルジャー		
-168	デーモントード		
-169	ブラッドハンド		
-170	ゴールドキッズ		
-171	サンダーサタン		
-172	スライムエンペラー		
-173	まかいぐんし		
-174	鉄球まじん		
-175	ジェネラルダンテ		
-176	ランプのまおう		
-177	ボアソルジャー		
-178	アンドレアル		
-179	どぐう戦士		
-180	リビングデッド		
-181	しびれスライム		
-182	死神きぞく		
-183	ゲリュオン		
-184	ケルベロス		
-185	ドラゴンヘビー		
-186	ビッグモアイ		
-187	まどう兵		
-188	メタルキング		
-189	ギガミュータント		
-190	グレイトホーン		
-191	デーモンレスラー		
-192	メダパニシックル		
-193	マジックアーマー		
-194	ヌーデビル		
-195	じごくの番犬		
-196	ドラグナー		
-197	ホールファントム		
-198	ヘルビースト		
-199	ダークビショップ		
-200	モシャスナイト		
-201	ドラゴンコープス		
-202	メガザルロック		
-203	にじくじゃく		
-204	呪いのつるぎ		
-205	ホラーウォーカー		
-206	ランガー		
-207	こうてつまじん		
-208	ヘルバトラー		
-209	オーガキング		
-210	ケベナヒモス		
-211	デスクリーチャー		
-212	ナイトリッチ		
-213	コロヒーロー		
-214	コロマージ		
-215	コロファイター		
-216	コロプリースト		
-217	プチヒーロー		
-218	プチマージ		
-219	プチファイター		
-220	プチプリースト		
-221	つのうしがい		
-222	ベビーニュート		
-223	メラリザード		
-224	ドラゴンキッズ		
-225	ギガントドラゴン		
-226	ネクロバルサ		
-227	まかいじゅう		
-228	だいまどう		
-229	スライムLv8		
-230	メタルスライムS		
-231	ババーリアン		
-232	デスカイザー		
-233	ブラックサンタ		
-234	デッドドラグナー		
-235	サタンメイル		
-236	ブドゥのランプ		
-237	まじんブドゥ		
-238	バスカービル		
-239	ドラゴメタル		
-240	まかいファイター		
-241	ポムポムボム		
-242	ゴーレムーガ		
-243	パンドラボックス		
-244	くさったまじゅう		
-245	キラープラスター		
-246	デビルマスタッシュ		
-247	ゴードンヘッド		
-248	プラチナキング		
-249	エビルプラント		
-250	ほうらい大王		
-251	デスゴーゴン		
-252	エビルエスターク		
-253	れんごくまちょう		
-254	ナイトキング		
-255	あんこくまどう		
-256	ドラゴン・ウー		
-257	突げきうお		
-258	おばけヒトデ		
-259	おばけ海牛		
-260	デスキャンサー		
-261	ようかい魚		
-262	たつのこナイト		
-263	ピラニアン		
-264	タップペンギン		
-265	しびれマイマイ		
-266	マルチアイ		
-267	デビルアンカー		
-268	エビルタートル		
-269	海のまもりガメ		
-270	エレフローパー		
-271	マージスター		
-272	ボーンフィッシュ		
-273	シードラゴンズ		
-274	岩とびあくま		
-275	ヘルダイバー		
-276	あんこくつむり		
-277	キルゲータ		
-278	ワームスペクター		
-279	ダゴン		
-280	フロッグキング		
-281	グレイトマーマン		
-282	ギャオース		
-302	ゴーレム	0	0
-305	炎の巨人	0	0
-306	デス・アミーゴ	0	0
-307	からくり兵	0	0
-310	マシンマスター	0	0
-311	デスマシーン	0	0
-312	あめふらし	0	0
-313	どうくつまじん	0	0
-319	イノップ	0	0
-321	ゴンズ	0	0
-322	マンイーター	0	0
-329	アントリア	0	0
-333	エテポンゲ	0	0
-334	さんぞくのカシラ	0	0
-338	セト	0	0
-342	マキマキ	0	0
-343	タイムマスター	0	0
-345	海底のゴースト	0	0
-346	グラコス	0	0
-349	グラコス5世	0	0
-355	ボルンガ	0	0
-356	やみのドラゴン	0	0
-358	ヘルバオムのねっこ	0	0
-359	ヘルバオム	0	0
-361	ヘルワーム	0	0
-362	メディルの使い	0	0
-365	やみのまじん	0	0
-366	ヘルクラウダー	0	0
-368	ボトク	0	0
-370	ガマデウス	0	0
-372	バリクナジャ	0	0
-373	オルゴ・デミーラ	0	0
-381	ネンガル	0	0
-382	オルゴ・デミーラ	0	0
-391	神さま	0	0
-393	ほのおのせいれい	0	0
-394	だいちのせいれい	0	0
-395	みずのせいれい	0	0
-396	かぜのせいれい	0	0
-450	デスバキューム	0	
-452	スライムタワー	0	
-453	ベビーサタン	0	
-454	エレキスライム	0	
-455	スライムマデュラ	0	
-456	デスマーブル	0	
-457	ドラキーマ	0	
-458	あんこくきょうてん	0	
-459	みわくのランプ	0	
-460	ナッツシューター	0	
-462	かえんムカデ	0	
-463	リカントマムル	0	
-464	アルミラージ	0	
-465	ドラゴン	0	
-466	ヘルゴースト	0	
-467	リカント	0	
-468	しりょうのきし	0	
-469	スターキメラ	0	
-471	グール	0	
-472	しりょう	0	
-474	がいこつへい	0	
-475	ともしびこぞう	0	
-476	サイクロプス	0	
-477	せっかちどぐう	0	
-478	マッスルオーガ	0	
-479	ギガンテス	0	
-480	レッドハンター	0	
-481	キラーマシン	0	
-482	ミステリードール	0	
-483	アイアンクック	0	
-484	キラーマジンガ	0	
-485	アークデーモン	0	
-486	ミニデーモン	0	
-487	じごくのつかい	0	
-488	タホドラキー	0	
-489	スモールロード	0	
-490	スケアリードッグ	0	
-491	ヘルバンデット	0	
-492	デスストーカー	0	
-493	とうぞくこぞう	0	
-494	ゴールデントーテム	0	
-495	メタルブラザーズ	0	
-498	ナイトメーア	0	
-499	メタルバイター	0	
-500	グラコスエビル	0	
-501	キャタピラー	0	
-502	いっかくうさぎ	0	
-503	じんめんちょう	0	
-504	グリズリー	0	
-505	エリミネーター	0	
-506	ギズモ	0	
-507	ヒートギズモ	0	
-508	フロストギズモ	0	
-509	カンダタ	0	
-510	キースドラゴン	0	
-511	キラーリカント	0	
-512	おばけねずみ	0	
-513	メトロゴースト	0	
-514	メタルパペット	0	
-515	キラースコップ	0	
-516	ストロングアニマル	0	
-517	がいこつ剣士	0	
-518	ベンガル	0	
-519	しにがみのタル	0	
-520	じんめんひさご	0	
-521	じゃしんぞう	0	
-522	アックスヘッド	0	
-523	ベビーパンサー	0	
-524	ボスプリズニャン	0	
-525	ブラックキーパー	0	
-526	リベリオン	0	
-527	キラーパンサー	0	
-528	いたずらもぐら	0	
-529	わんぱくサタン	0	
-530	にくきゅうまどう	0	
-531	ピコヒーロー	0	
-532	ピコマージ	0	
-533	ピコファイター	0	
-534	ピコプリースト	0	
-535	チャンプ	0	
-536	バトルレックス	0	
-537	ダースドラゴン	0	
-538	ギガントブラッド	0	
-539	ウォンテッドヘビー	0	
-540	しゃくねつりゅう	0	
-541	ファーラット	0	
-543	メタルスコーピオン	0	
-545	えだきりあくま	0	
-546	ヘルバーバー	0	
-547	キラーマシン2	0	
-548	ガチャコッコ	0	
-549	ベテラン兵	0	
-550	マシンジェネラル	0	
-551	ゾンビーミラー	0	
-552	メタルスラッシャー	0	
-553	バロックトーテム	0	
-554	いしにんぎょう	0	
-555	スライムダーク	0	
-556	やみのしょくだい	0	
-557	影の騎士	0	
-558	ブラックボトル	0	
-559	くらやみにゅうどう	0	
-560	デッドセーラー	0	
-561	デスパイレーツ	0	
-562	がいこつ	0	
-563	バラクーダ	0	
-565	パンプキンおじさん	0	
-566	ガップリン	0	
-567	オニオーン	0	
-568	オベルジーヌ	0	
-569	たまねぎマン	0	
-570	エビルアップル	0	
-573	グレイビーポット	0	
-574	ゴースト	0	
-575	ドラキー	0	
-576	おばけキャンドル	0	
-577	ホワイトスピリット	0	
-578	おおねずみ	0	
-579	メガヒーロー	0	
-580	メガマージ	0	
-581	メガファイター	0	
-582	メガプリースト	0	
-583	ようじゅつし	0	
-584	メタルハンター	0	
-585	じごくのしきょう	0	
-586	ゴールドパペット	0	
-587	しびれあげは	0	
-589	あくまのねっこ	0	
-590	ごうけつぐま	0	
-591	ドワーフスミス	0	
-593	ヘルジャッカル	0	
-594	ベホイミスライム	0	
-595	スウィートバッグ	0	
-596	こどくなタイジュ	0	
-597	スライムスノー	0	
-598	ダイアパペット	0	
-599	ケダモン	0	
-600	プリズニャン	0	
+0	None		
+1	Slime		
+2	Woebergine		
+3	Nightcrawler		
+4	Lips		
+5	Mouseflap		
+6	Bubble slime		
+7	Cactiball		
+8	Tongue fu fighter		
+9	Meowgician		
+10	Choppy hopper		
+11	Kingfuchsia		
+12	Shabby cat		
+13	Quiller		
+14	Little devil		
+15	Smashin' crab		
+16	Healslime		
+17	Peahooter		
+18	Crested viper		
+19	Muddy hand		
+20	Frightcrawler		
+21	She slime		
+22	Awebergine		
+23	Nutter		
+24	Mousenap		
+25	Babygoyle		
+26	Walking corpse		
+27	Axassin		
+28	Anarchaeopteryx		
+29	Drake slime		
+30	Mud mannequin		
+31	Clawcerer		
+32	Headhunter		
+33	Kisser		
+34	Ulcer		
+35	Slime knight		
+36	Armoured scorpion		
+37	Cannibox		
+38	Zepling		
+39	Spiny mine		
+40	Forky pig		
+41	Preying mantis		
+42	Tongue fu master		
+43	Swinoceros		
+44	Chimaera		
+45	Stingfisher		
+46	Batboon		
+47	Vile vial		
+48	Nail blighter		
+49	Monolog		
+50	Total nutter		
+51	Bag o' laughs		
+52	Caper tiger		
+53	Fandangow		
+54	Serial quiller		
+55	Metal slime		
+56	Urnexpected		
+57	Wooden horseman		
+58	Grinade		
+59	Scarewell		
+60	Bad egg		
+61	Slaying mantis		
+62	Mudraker		
+63	Shaman		
+64	Stone golem		
+65	Armoured wartoise		
+66	Notso macho		
+67	Drag racer		
+68	Floating bloater		
+69	Prancing pillar		
+70	Brawn moa		
+71	Cheeky devil		
+72	Deadcurion		
+73	Whopper hopper		
+74	Hocus porcus		
+75	Fryling		
+76	Grimoire		
+77	Wight watchman		
+78	Jade dragon		
+79	Fly-by-knight		
+80	Natural born quiller		
+81	Cureslime		
+82	Boorbarian		
+83	Splatterhorn		
+84	Oligarchaeopteryx		
+85	Chargoyle		
+86	King slime		
+87	Mandrake mercenary		
+88	Mastermine		
+89	Bag snatcher		
+90	Scarlet scorpion		
+91	Toxic zombie		
+92	Metal slime knight		
+93	Claw breaker		
+94	Sharphooter		
+95	Lesser demon		
+96	Rotten egg		
+97	Scrapper		
+98	Dragon slime		
+99	Hocus chimaera		
+100	Donkey xote		
+101	Half hog		
+102	Biting batboon		
+103	Harmour		
+104	Smacker		
+105	Scargoyle		
+106	Berserker		
+107	Purrestidigitator		
+108	Galumph		
+109	Mucho macho		
+110	Pustule		
+111	Magic marionette		
+112	Well wisher		
+113	Pink panzer		
+114	Gyrogre		
+115	Crabble-rouser		
+116	Healium balloon		
+117	Axecutioner		
+118	Direlog		
+119	Fighting batboon		
+120	Goodybag		
+121	Thuggler		
+122	Dragstar		
+123	Liquid metal slime		
+124	Enormoose		
+125	Diethon		
+126	Admirer		
+127	Rockbomb		
+128	Blistering bloater		
+129	Stainless scrapper		
+130	Wrecktor		
+131	Fire fry		
+132	Mimic		
+133	Whole hog		
+134	Horn moa		
+135	Malevolantern		
+136	Wingwyrm		
+137	King cureslime		
+138	Gold golem		
+139	Oinkubus		
+140	Blightcrawler		
+141	Frighturn		
+142	Wight prowler		
+143	Live lava		
+144	Very devil		
+145	Cavorting column		
+146	Winged sabrecat		
+147	Mandrake major		
+148	Vial creature		
+149	Sky fry		
+150	Cumulus rex		
+151	Monarchaeopteryz		
+152	Knightshade		
+153	Moosifer		
+154	Sculpture vulture		
+155	Gem slime		
+156	Dragster		
+157	Delusionist		
+158	Mild headache		
+159	Gripevine		
+160	Skeleton squire		
+161	Blazing wingwyrm		
+162	Iron fryling		
+163	Hexicon		
+164	Terrorhawk		
+165	Dingbat		
+166	Escudogre		
+167	Decayurion		
+168	Blighted bloater		
+169	Bloody hand		
+170	Gold fryling		
+171	Demon thunderer		
+172	Emperor slime		
+173	Demon deacon		
+174	Swingre		
+175	Captain catastrophe		
+176	High djinks		
+177	Hell hog		
+178	Rashaverak		
+179	Terracotta warrior		
+180	Corpse corporal		
+181	Sting slime		
+182	Bone baron		
+183	Draguar		
+184	Cerberwretch		
+185	Weighvern		
+186	Mad moai		
+187	Necromacer		
+188	Metal king slime		
+189	Gigalumph		
+190	Ginormoose		
+191	Juggular		
+192	Compos mantis		
+193	Charmour		
+194	Gnucifer		
+195	Cerberuff		
+196	Wide-load weighvern		
+197	Damned well		
+198	Sculptrice		
+199	Beastly priest		
+200	Knight shift		
+201	Grotwyrm		
+202	Bomboulder		
+203	Prism peacock		
+204	Major headache		
+205	Hellstalker		
+206	Div		
+207	Metal heavy		
+208	Barbatos		
+209	Testudogre		
+210	Freezing wingwyrm		
+211	Carbuncle		
+212	Fright knight		
+213	Pip fighter		
+214	Wiz pip		
+215	Battle pip		
+216	Epipany		
+217	Conkuistador		
+218	Conkjurer		
+219	Conkerer		
+220	Conkuisitor		
+221	Deathcargot		
+222	Sizzard		
+223	Frizzard		
+224	Small fry		
+225	Drakulard		
+226	Togre		
+227	Gnumesis		
+228	Vis mager		
+229	1:8 slime		
+230	Metal slime S		
+231	Vulgarian		
+232	Master moosifer		
+233	Swag bagger		
+234	Warlord weighvern		
+235	Alarmour		
+236	Vigilantern		
+237	Djinn genie		
+238	Cerberex		
+239	Metal dragon slime		
+240	Mandrake monarch		
+241	Discombombulator		
+242	Collum o'golem		
+243	Pandora's box		
+244	Rotwyrm		
+245	Ceramic sergeant		
+246	Major disaster		
+247	Mega moai		
+248	Platinum king jewel		
+249	Gourdzilla		
+250	Baron von bellycose		
+251	Gnuriel		
+252	Ersatz estark		
+253	Bird of terrordise		
+254	Night knight		
+255	Hirsute hexer		
+256	Drakulord		
+257	Barracuda		
+258	Scarfish		
+259	Wet kisser		
+260	Claws célèbre		
+261	Frightbait		
+262	Quayhorse		
+263	Strangler fish		
+264	Pogoin' penguin		
+265	Disastropod		
+266	Eyesaur		
+267	Briny mine		
+268	Jawtoise		
+269	Ironclad wartoise		
+270	Elepus		
+271	Trickstar		
+272	Dread herring		
+273	Wharfhorse		
+274	Rockin' rockhopper		
+275	Abyss diver		
+276	Perilwinkle		
+277	Shelligator		
+278	Hideous eyesaur		
+279	Octophant		
+280	Croaked king		
+281	Merderer		
+282	Seasaur		
+283	Golem	0	0
+284	Glowering Inferno	0	0
+285	Hackrobat	0	0
+286	Automaton	0	0
+287	Tinpot Dictator	0	0
+288	Slaughtomaton	0	0
+289	Rainiac	0	0
+290	Grody Gumpdrops	0	0
+291	Rashers	0	0
+292	Stripes	0	0
+293	Gobbler	0	0
+294	Cardinal Sin	0	0
+295	Putric Stinkenheimer	0	0
+296	The Mighty Pip	0	0
+297	Setesh the Punisher	0	0
+298	Side winder	0	0
+299	The Time Being	0	0
+300	Sunken spirit	0	0
+301	Gracos	0	0
+302	Gracos V	0	0
+303	Moostapha	0	0
+304	Sulkk	0	0
+305	Writhing root	0	0
+306	Malign vine	0	0
+307	Worm of woe	0	0
+308	Envoy	0	0
+309	Vaipur	0	0
+310	Cumulus vex	0	0
+311	Gasputin	0	0
+312	Mossferatu	0	0
+313	Togrus Maximus	0	0
+314	Orgodemir	0	0
+315	Macho Picchu	0	0
+316	Orgodemir	0	0
+317	The Almighty	0	0
+318	Fire Spirit	0	0
+319	Earth Spirit	0	0
+320	Water Spirit	0	0
+321	Wind Spirit	0	0
+1	Pucker sucker	0	
+2	Slime stack	0	
+3	Imp	0	
+4	Electroslime	0	
+5	Darkonium slime	0	
+6	Boogieing buttress	0	
+7	Drackyma	0	
+8	Black book	0	
+9	Lover lamp	0	
+10	Utter nutter	0	
+11	Grillerpillar	0	
+12	Scarewolf	0	
+13	Spiked hare	0	
+14	Green dragon	0	
+15	Spitegeist	0	
+16	Bewarewolf	0	
+17	Skeleton soldier	0	
+18	Cosmic chimaera	0	
+19	Ghoul	0	
+20	Skeleton scrapper	0	
+21	Lesionnare	0	
+22	Wickerman	0	
+23	Cyclops	0	
+24	Clay colonel	0	
+25	Machismogre	0	
+26	Gigantes	0	
+27	Red scrapper	0	
+28	Killing machine	0	
+29	Pocus poppet	0	
+30	Robo-robin	0	
+31	Überkilling machine	0	
+32	Archdemon	0	
+33	Minidemon	0	
+34	Whackolyte	0	
+35	Drackmage	0	
+36	Grrrarrrgoyle	0	
+37	Dreadful drackal	0	
+38	Robber baron	0	
+39	Heavy hood	0	
+40	Pilferer	0	
+41	Gem jamboree	0	
+42	Metal medley	0	
+43	Evil emperor	0	
+44	Wolfram wartoise	0	
+45	Gracolyte	0	
+46	Killerpillar	0	
+47	Bunicorn	0	
+48	Batterfly	0	
+49	Ursa major	0	
+50	Hoodlum	0	
+51	Cumaulus	0	
+52	Hell niño	0	
+53	Freezing fog	0	
+54	Robbin' hood	0	
+55	Blue dragon	0	
+56	Tearwolf	0	
+57	Dirty rat	0	
+58	Fightgeist	0	
+59	Metal mannequin	0	
+60	Mad mole	0	
+61	Drackal	0	
+62	Skeleton swordsman	0	
+63	Cheater cheetah	0	
+64	Tun of fun	0	
+65	Gourd almighty	0	
+66	Sinisculpture	0	
+67	Splitting headache	0	
+68	Great sabrecub	0	
+69	Laguar	0	
+70	Fancy panth	0	
+71	Rebel lion	0	
+72	Great sabrecat	0	
+73	Mischievous mole	0	
+74	Impostir	0	
+75	Pawmaturge	0	
+76	Nut knight	0	
+77	Nutty professor	0	
+78	War nut	0	
+79	Religious nut	0	
+80	Hammer	0	
+81	Hacksaurus	0	
+82	Dread dragon	0	
+83	Lumberdrak	0	
+84	Whalevern	0	
+85	Hotwyrm	0	
+86	Feralball	0	
+87	Metal scorpion	0	
+88	Boarticulturist	0	
+89	Demon barber	0	
+90	Overkilling machine	0	
+91	Clockwork cuckoo	0	
+92	Silver scrapper	0	
+93	General motor	0	
+94	Mirror grimage	0	
+95	Iron duke	0	
+96	Flamencolumn	0	
+97	Dirty dogu	0	
+98	Dark slime	0	
+99	Sconstrosity	0	
+100	Dark skeleton	0	
+101	Dark decanter	0	
+102	Cumulus nix	0	
+103	Ancient mariner	0	
+104	Plunderer	0	
+105	Skeleton	0	
+106	Picuda	0	
+107	Plumpkin	0	
+108	Bad apple	0	
+109	Ornery onion	0	
+110	Übergine	0	
+111	Loathsome leek	0	
+112	Rotten apple	0	
+113	Sorcerer's saucière	0	
+114	Ghost	0	
+115	Dracky	0	
+116	Wax murderer	0	
+117	White spirit	0	
+118	Fat rat	0	
+119	Kernel colonel	0	
+120	Infernal kernel	0	
+121	Lieutenant kernel	0	
+122	Kernel of truth	0	
+123	Sorcerer	0	
+124	Hunter mech	0	
+125	Black bishop	0	
+126	Gold mannequin	0	
+127	Dread admiral	0	
+128	Root of all evil	0	
+129	Ursa minor	0	
+130	Whacksmith	0	
+131	Drastic drackal	0	
+132	Medislime	0	
+133	Bag o' sweets	0	
+134	Yule log	0	
+135	Snow slime	0	
+136	Diamond mannequin	0	
+137	Feralbeast	0	
+138	Jailcat	0	

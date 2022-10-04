@@ -254,5 +254,10 @@ namespace DQ7
         {
 
         }
+
+        private void ListBox_SelectionChanged()
+        {
+
+        }
     }
 }
