@@ -476,7 +476,7 @@
                         </ListBox.ItemTemplate>
                     </ListBox>
                 </TabItem>
-                <TabItem Header="Monster Stamp">
+                <TabItem Header="Monster Stamps">
                     <ListBox ItemsSource="{Binding MonsterStamps}">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
