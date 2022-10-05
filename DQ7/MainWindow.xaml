@@ -426,9 +426,9 @@
                                                 <TextBox Text="{Binding BossLv, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
                                             </StackPanel>
                                             <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Horizontal">
-                                                <Label Content="撃破"/>
+                                                <Label Content="Times Cleared"/>
                                                 <TextBox Text="{Binding Capture, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
-                                                <Label Content="回"/>
+                                                <Label Content=""/>
                                             </StackPanel>
                                             <Label Grid.Row="4" Content="Tablet"/>
                                             <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" IsEnabled="{Binding ElementName=CheckBoxPassingSlate, Path=IsChecked}">
@@ -447,7 +447,7 @@
                         <DockPanel Grid.Column="1">
                             <Label DockPanel.Dock="Top" Content="Other people's tablets"/>
                             <WrapPanel DockPanel.Dock="Top">
-                                <Label Content="石板の数"/>
+                                <Label Content="Amount"/>
                                 <TextBox Text="{Binding PassingSlateCount}" Width="40"/>
                                 <Label Content=""/>
                             </WrapPanel>
