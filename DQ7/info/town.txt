@@ -1,17 +1,17 @@
 #ID	名前	種族
-0	スララン	スライム
-1	ナッシー	ナスビナーラ
-2	ハナミー	はなカワセミ
-3	ビーゴン	ベビーゴイル
-4	ダックル	ダークドワーフ
-5	ドラッス	ドラゴスライム
-6	バブール	バブリン
-7	クッポー	スモークポット
-8	サックル	アサシンクロー
-9	メーたん	メタルスライム
-10	ムッチョ	ダンビラムーチョ
-11	ミックル	ミミック
-12	プチロー	プチヒーロー
-13	タツノン	たつのこナイト
-14	スラウス	スライムエンペラー
-15	神さま	神さま
+0	Pleghmrique 	Slime
+1	Gene 	Woebergine
+2	Fuchsia 	Kingfuchsia
+3	Goyldon 	Babygoyle
+4	Axel 	Axassin
+5	Drake 	Drake slime
+6	Zeppelina 	Zepling
+7	Neville 	Vile vial
+8	Neil 	Nail blighter
+9	Mercuria 	Metal slime
+10	Mac 	Notso macho
+11	Mick 	Mimic
+12	Kuistian 	Conkuistador
+13	Quaynan 	Quayhorse
+14	Goolio 	Emperor slime
+15	The Almighty	The Almighty

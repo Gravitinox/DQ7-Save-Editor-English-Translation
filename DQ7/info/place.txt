@@ -1,26 +1,26 @@
 #ID	名前
-1	なぞの神殿
-2	フィッシュベル
-3	グランエスタード
-4	ウッドパルナ
-5	エンゴウ
-6	オルフィー
-7	フォロッド城
-8	メモリアリーフ
-9	ダーマ神殿
-10	メザレ
-11	砂漠の城
-12	大地の精霊像
-13	クレージュ
-14	リートルード
-15	ハーメリア
-16	メダル王の城
-17	ブロビナ
-18	ルーメン
-19	マーディラス
-20	聖風の谷
-21	レブレサック
-22	コスタール
-23	天上の神殿
-24	移民の町
-25	モンスターパーク
+1	Shrine of Mysteries
+2	Pilchard Bay
+3	Estard
+4	Ballymolloy
+5	Emberdale
+6	L'Arca
+7	Faraday Castle
+8	Wilted Heart
+9	Alltrades Abbey
+10	La Bravoure
+11	Temple Palace
+12	The Likeness
+13	Gröndal
+14	El Ciclo
+15	Wetlock
+16	King Maximo's Mansion
+17	Providence
+18	Nottagen
+19	Hubble
+20	Aeolus Vale
+21	Vogograd
+22	Buccanham
+23	Divine Shrine
+24	The Haven
+25	Monster Meadows

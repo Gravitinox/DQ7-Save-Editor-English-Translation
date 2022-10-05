@@ -40,7 +40,7 @@
                 <ComboBox Width="120" SelectionChanged="ComboBox_SelectionChanged"
 						  SelectedIndex="{Binding Path=DeviceType, Source={x:Static prop:Settings.Default}}">
                     <ComboBoxItem Content="3DS"/>
-                    <ComboBoxItem Content="android"/>
+                    <ComboBoxItem Content="Android"/>
                 </ComboBox>
             </ToolBar>
             <TabControl SelectionChanged="TabControl_SelectionChanged">
@@ -104,7 +104,7 @@
                         <Label Grid.Row="7" Content="Story Settings" Margin="0,32.5" Grid.RowSpan="3"/>
                         <Label Grid.Row="9" Content="Masteries shown" Margin="0,0.5,0,31.5" Grid.RowSpan="2"/>
                         <CheckBox Grid.Row="9" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding Proficiency}" Height="14" Margin="0,10.5,0,8.5"/>
-                        <Label Grid.Row="9" Content="Streetpass Tablets shown" Margin="0,32.5" Grid.RowSpan="3"/>
+                        <Label Grid.Row="9" Content="StreetPass Tablets shown" Margin="0,32.5" Grid.RowSpan="3"/>
                         <CheckBox Grid.Row="10" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding PassingSlate}" Height="16" Margin="0,7.5,0,9.5"/>
 
                         <Label Grid.Column="4" Content="No. of Battles"/>
@@ -157,7 +157,7 @@
                             <TextBox Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Name, UpdateSourceTrigger=PropertyChanged}"/>
                             <Label Grid.Row="1" Content="Vocation"/>
                             <ComboBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Info.Jobs}" SelectedIndex="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Job}" DisplayMemberPath="Name"/>
-                            <Label Grid.Row="2" Content="LV"/>
+                            <Label Grid.Row="2" Content="Level"/>
                             <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Lv, UpdateSourceTrigger=PropertyChanged}"/>
                             <Label Grid.Row="3" Content="Strength"/>
                             <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Power, UpdateSourceTrigger=PropertyChanged}"/>
@@ -171,13 +171,13 @@
                             <TextBox Grid.Row="7" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Cool, UpdateSourceTrigger=PropertyChanged}"/>
                             <Label Grid.Row="8" Content="HP"/>
                             <TextBox Grid.Row="8" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.HP, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="9" Content="Max HP"/>
+                            <Label Grid.Row="9" Content="Max. HP"/>
                             <TextBox Grid.Row="9" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.MaxHP, UpdateSourceTrigger=PropertyChanged}"/>
                             <Label Grid.Row="10" Content="MP"/>
                             <TextBox Grid.Row="10" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.MP, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="11" Content="Max MP"/>
+                            <Label Grid.Row="11" Content="Max. MP"/>
                             <TextBox Grid.Row="11" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.MaxMP, UpdateSourceTrigger=PropertyChanged}"/>
-                            <Label Grid.Row="12" Content="Exp"/>
+                            <Label Grid.Row="12" Content="Exp."/>
                             <TextBox Grid.Row="12" Grid.Column="1" Text="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Exp, UpdateSourceTrigger=PropertyChanged}"/>
                         </Grid>
                         <ListBox Grid.Column="2" ItemsSource="{Binding ElementName=ListBoxCharactor, Path=SelectedItem.Items}">
@@ -352,15 +352,15 @@
                         </Grid>
                     </Grid>
                 </TabItem>
-                <TabItem Header="すれちがい石板">
+                <TabItem Header="StreetPass Tablets">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <DockPanel>
-                            <Label DockPanel.Dock="Top" Content="じぶんの石板"/>
-                            <CheckBox DockPanel.Dock="Top" x:Name="CheckBoxPassingSlate" Content="上級者向け"/>
+                            <Label DockPanel.Dock="Top" Content="My tablets"/>
+                            <CheckBox DockPanel.Dock="Top" x:Name="CheckBoxPassingSlate" Content="Advanced Settings"/>
                             <ListBox ItemsSource="{Binding PassingSlates}">
                                 <ListBox.Resources>
                                     <x:Array x:Key="MonsterOptions" Type="{x:Type System:String}">
@@ -384,43 +384,43 @@
                                                 <ColumnDefinition/>
                                                 <ColumnDefinition/>
                                             </Grid.ColumnDefinitions>
-                                            <Label Content="リーダー"/>
+                                            <Label Content="Leader"/>
                                             <StackPanel Grid.Column="1" Orientation="Horizontal">
                                                 <Label Content="Lv"/>
                                                 <TextBox Text="{Binding Leader.Lv, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
                                             </StackPanel>
                                             <StackPanel Grid.Column="2" Orientation="Horizontal">
-                                                <Label Content="種別"/>
+                                                <Label Content="Monster"/>
                                                 <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Path=DataContext.PassingSlateMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
                                                   DisplayMemberPath="Name" SelectedIndex="{Binding Leader.Kind}" Width="120"/>
                                                 <ComboBox ItemsSource="{StaticResource MonsterOptions}" SelectedIndex="{Binding Leader.Option}"/>
                                             </StackPanel>
-                                            <Label Grid.Row="1" Content="お供1"/>
+                                            <Label Grid.Row="1" Content="With"/>
                                             <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
                                                 <Label Content="Lv"/>
                                                 <TextBox Text="{Binding Companion1.Lv, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
                                             </StackPanel>
                                             <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Horizontal">
-                                                <Label Content="種別"/>
+                                                <Label Content="Monster"/>
                                                 <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Path=DataContext.PassingSlateMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
                                                   DisplayMemberPath="Name" SelectedIndex="{Binding Companion1.Kind}" Width="120"/>
                                                 <ComboBox ItemsSource="{StaticResource MonsterOptions}" SelectedIndex="{Binding Companion1.Option}"/>
                                             </StackPanel>
-                                            <Label Grid.Row="2" Content="お供2"/>
+                                            <Label Grid.Row="2" Content="And"/>
                                             <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
                                                 <Label Content="Lv"/>
                                                 <TextBox Text="{Binding Companion2.Lv, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
                                             </StackPanel>
                                             <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal">
-                                                <Label Content="種別"/>
+                                                <Label Content="Monster"/>
                                                 <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Path=DataContext.PassingSlateMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
                                                   DisplayMemberPath="Name" SelectedIndex="{Binding Companion2.Kind}" Width="120"/>
                                                 <ComboBox ItemsSource="{StaticResource MonsterOptions}" SelectedIndex="{Binding Companion2.Option}"/>
                                             </StackPanel>
-                                            <Label Grid.Row="3" Content="ボス"/>
+                                            <Label Grid.Row="3" Content="Boss"/>
                                             <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal">
                                                 <Label Content="Lv"/>
                                                 <TextBox Text="{Binding BossLv, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
@@ -430,13 +430,13 @@
                                                 <TextBox Text="{Binding Capture, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
                                                 <Label Content="回"/>
                                             </StackPanel>
-                                            <Label Grid.Row="4" Content="石板"/>
+                                            <Label Grid.Row="4" Content="Tablet"/>
                                             <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" IsEnabled="{Binding ElementName=CheckBoxPassingSlate, Path=IsChecked}">
-                                                <Label Content="ヘッダ"/>
+                                                <Label Content="Header"/>
                                                 <TextBox Text="{Binding SlateHeader, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
                                             </StackPanel>
                                             <StackPanel Grid.Row="4" Grid.Column="2" Orientation="Horizontal" IsEnabled="{Binding ElementName=CheckBoxPassingSlate, Path=IsChecked}">
-                                                <Label Content="フッタ"/>
+                                                <Label Content="Footer"/>
                                                 <TextBox Text="{Binding SlateFooter, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
                                             </StackPanel>
                                         </Grid>
@@ -445,11 +445,11 @@
                             </ListBox>
                         </DockPanel>
                         <DockPanel Grid.Column="1">
-                            <Label DockPanel.Dock="Top" Content="たにんの石板"/>
+                            <Label DockPanel.Dock="Top" Content="Other people's tablets"/>
                             <WrapPanel DockPanel.Dock="Top">
                                 <Label Content="石板の数"/>
                                 <TextBox Text="{Binding PassingSlateCount}" Width="40"/>
-                                <Label Content="枚"/>
+                                <Label Content=""/>
                             </WrapPanel>
                             <ListBox>
 
