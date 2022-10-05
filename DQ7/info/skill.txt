@@ -67,7 +67,7 @@
 68	Chilly Breath
 69	Freezing Breath
 70	C-C-Cold Breath
-71	[!]Tsunami
+71	[!] Tsunami
 72	Pyre o' Fire
 73	Magma Blast
 74	Fissure
@@ -79,7 +79,7 @@
 80	Pearly Gates
 81	Magic Burst
 82	Lightning Storm
-83	[!]Massacre
+83	[!] Massacre
 84	Body Slam
 85	Roar Deal
 86	Ram Raid
@@ -127,9 +127,9 @@
 139	Helm Splitter
 140	Miracle Slash
 141	Focus Pocus
-162	[!]EagleEye
-163	[!]Eye for Distance
-164	[!]Slumber
+162	[!] EagleEye
+163	[!] Eye for Distance
+164	[!] Slumber
 165	Nose for Treasure
-166	[!]Padfoot
+166	[!] Padfoot
 167	Whistle
