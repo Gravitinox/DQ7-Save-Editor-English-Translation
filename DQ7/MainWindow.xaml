@@ -467,7 +467,7 @@
                                     <TextBox Text="{Binding Kill, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
                                     <Label Content="Items Acquired"/>
                                     <TextBox Text="{Binding Item, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
-                                    <Label Content="Lv First Defeated At"/>
+                                    <Label Content="Level First Defeated At"/>
                                     <TextBox Text="{Binding Lv, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
                                     <Label Content="No. Tamed"/>
                                     <TextBox Text="{Binding Friend, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
