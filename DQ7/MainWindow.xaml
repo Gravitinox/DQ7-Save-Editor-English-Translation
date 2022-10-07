@@ -387,37 +387,37 @@
                                             <Label Content="Leader"/>
                                             <StackPanel Grid.Column="1" Orientation="Horizontal">
                                                 <Label Content="Lv"/>
-                                                <TextBox Text="{Binding Leader.Lv, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
+                                                <TextBox Text="{Binding Leader.Lv, UpdateSourceTrigger=PropertyChanged}" Width="80"/>
                                             </StackPanel>
                                             <StackPanel Grid.Column="2" Orientation="Horizontal">
                                                 <Label Content="Monster"/>
                                                 <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Path=DataContext.PassingSlateMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
-                                                  DisplayMemberPath="Name" SelectedIndex="{Binding Leader.Kind}" Width="120"/>
+                                                  DisplayMemberPath="Name" SelectedIndex="{Binding Leader.Kind}" Width="160"/>
                                                 <ComboBox ItemsSource="{StaticResource MonsterOptions}" SelectedIndex="{Binding Leader.Option}"/>
                                             </StackPanel>
                                             <Label Grid.Row="1" Content="With"/>
                                             <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
                                                 <Label Content="Lv"/>
-                                                <TextBox Text="{Binding Companion1.Lv, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
+                                                <TextBox Text="{Binding Companion1.Lv, UpdateSourceTrigger=PropertyChanged}" Width="80"/>
                                             </StackPanel>
                                             <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Horizontal">
                                                 <Label Content="Monster"/>
                                                 <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Path=DataContext.PassingSlateMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
-                                                  DisplayMemberPath="Name" SelectedIndex="{Binding Companion1.Kind}" Width="120"/>
+                                                  DisplayMemberPath="Name" SelectedIndex="{Binding Companion1.Kind}" Width="160"/>
                                                 <ComboBox ItemsSource="{StaticResource MonsterOptions}" SelectedIndex="{Binding Companion1.Option}"/>
                                             </StackPanel>
                                             <Label Grid.Row="2" Content="And"/>
                                             <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
                                                 <Label Content="Lv"/>
-                                                <TextBox Text="{Binding Companion2.Lv, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
+                                                <TextBox Text="{Binding Companion2.Lv, UpdateSourceTrigger=PropertyChanged}" Width="80"/>
                                             </StackPanel>
                                             <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal">
                                                 <Label Content="Monster"/>
                                                 <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Path=DataContext.PassingSlateMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
-                                                  DisplayMemberPath="Name" SelectedIndex="{Binding Companion2.Kind}" Width="120"/>
+                                                  DisplayMemberPath="Name" SelectedIndex="{Binding Companion2.Kind}" Width="160"/>
                                                 <ComboBox ItemsSource="{StaticResource MonsterOptions}" SelectedIndex="{Binding Companion2.Option}"/>
                                             </StackPanel>
                                             <Label Grid.Row="3" Content="Boss"/>
@@ -482,8 +482,8 @@
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
                                     <ComboBox ItemsSource="{Binding Path=DataContext.StampMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
-                                              SelectedIndex="{Binding ID, Converter={StaticResource MonsterStampConverter}}" DisplayMemberPath="Name" Width="150"/>
-                                    <TextBox Margin="5,0,0,0" Text="{Binding Count, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
+                                              SelectedIndex="{Binding ID, Converter={StaticResource MonsterStampConverter}}" DisplayMemberPath="Name" Width="180"/>
+                                    <TextBox Margin="5,0,0,0" Text="{Binding Count, UpdateSourceTrigger=PropertyChanged}" Width="60"/>
                                     <Label Content="Acquired"/>
                                 </StackPanel>
                             </DataTemplate>
@@ -519,8 +519,8 @@
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal">
                                             <ComboBox ItemsSource="{Binding Path=DataContext.PassingSlateMonsters, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:MainWindow}}"
-                                                      DisplayMemberPath="Name" Width="150" SelectedIndex="{Binding ID}"/>
-                                            <TextBox Text="{Binding Count, UpdateSourceTrigger=PropertyChanged}" Width="40"/>
+                                                      DisplayMemberPath="Name" Width="180" SelectedIndex="{Binding ID}"/>
+                                            <TextBox Text="{Binding Count, UpdateSourceTrigger=PropertyChanged}" Width="60"/>
                                             <Label Content=""/>
                                         </StackPanel>
                                     </DataTemplate>
