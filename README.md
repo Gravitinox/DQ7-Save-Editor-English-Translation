@@ -32,5 +32,3 @@ Everything except for some NPC names has been translated.
 ![Screenshot](https://github.com/Gravitinox/DQ7-Save-Editor-English-Translation/blob/master/Screenshots/Screenshot2.png)
 ![Screenshot](https://github.com/Gravitinox/DQ7-Save-Editor-English-Translation/blob/master/Screenshots/Screenshot3.png)
 ![Screenshot](https://github.com/Gravitinox/DQ7-Save-Editor-English-Translation/blob/master/Screenshots/Screenshot4.png)
-![Screenshot](https://github.com/Gravitinox/DQ7-Save-Editor-English-Translation/blob/master/Screenshots/Screenshot5.png)
-![Screenshot](https://github.com/Gravitinox/DQ7-Save-Editor-English-Translation/blob/master/Screenshots/Screenshot6.png)
