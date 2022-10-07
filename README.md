@@ -1,7 +1,7 @@
 # Dragon Quest VII (3DS) Save Editor - English Translation
 An English translation of turtle-insect's [Dragon Quest VII (3DS) Save Editor](https://github.com/turtle-insect/DQ7).
 
-Everything except for items and some NPC names has been translated.
+Everything except for some NPC names has been translated.
 
 **_Please don't request feature additions here, this is purely a translation project._**
 
