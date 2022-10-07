@@ -24,8 +24,8 @@ Everything except for some NPC names has been translated.
 4. Save the edited save00x.bin file
 5. Restore the edited save files back to your 3DS
 
-# Notes
-* Skills with a [!] prefix appears to be leftovers from the original PSX version of the game. Enable those at your own risk.
+# Notes and Warnings
+* Skills with a [!] prefix appears to be unused leftovers from the original PSX version of the game. Characters cannot learn those skills naturally in the 3DS version, enable those at your own risk.
 
 # Screenshots
 ![Screenshot](https://github.com/Gravitinox/DQ7-Save-Editor-English-Translation/blob/master/Screenshots/Screenshot1.png)
